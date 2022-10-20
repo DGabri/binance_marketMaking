@@ -7,3 +7,9 @@
 2. If the buy is executed in a 15 sec span a sell order is submitted at price = best_ask - 1 tick
 3. Data is saved to mySQL and then plotted on Grafana (optional)
 4. THIS BOT WAS USED DURING THE BINANCE 0% FEES CAMPAINS, TRADE AT YOUR OWN RISKS
+
+
+# BEFORE USE:
+
+- INSERT YOUR PRIVATE KEYS
+- INSTALL requirements.txt
