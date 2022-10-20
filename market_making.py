@@ -18,6 +18,7 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(filename)s:%(line
 
 API_KEY = "INSERT YOUR PUBLIC KEY"
 SECRET_KEY = "INSERT YOUR PRIVATE KEY"
+TARGET_SPREAD = float()
 
 ###################################################################################################
 ###################################################################################################
@@ -369,8 +370,8 @@ def ws_order_book(symbol):
                 #logging.info(f"UPDATED ORDER_ID: {order_id}")
                 #logging.info("============================")
             
-            #and (my_gain > target_spread)
-            if (position_val == 0):
+            #and (my_gain > TARGET_SPREAD)
+            if ((position_val == 0) and (my_gain > TARGET_SPREAD)):
                 #logging.info(f"SPREAD: {my_gain}")
                 #SEND ORDER
                 eth_qty = (initial_qty/my_bid)
