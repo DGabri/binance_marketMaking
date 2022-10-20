@@ -11,6 +11,6 @@
 
 # BEFORE USE:
 
-- INSERT YOUR PRIVATE KEYS
-- INSTALL requirements.txt
-- CHOOSE THE DESIRED SPREAD GAIN FOR EACH TRADE
+- Install requirements.txt
+- Insert yout private keys
+- Choose the desired spread gain for each trade
