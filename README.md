@@ -14,3 +14,8 @@
 - Install requirements.txt
 - Insert yout private keys
 - Choose the desired spread gain for each trade
+
+
+Consider supporting this repo if you are interested or register with my link to have a voucher on binance:
+Binance: https://www.binance.com/en/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00Q0PV68WP
+Bybit: https://www.bybit.com/en-US/invite?ref=R1BKR
